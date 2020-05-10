@@ -1,0 +1,70 @@
+# Site settings
+title: Jay Conner
+description: |
+  One man's journey from cop to information technology professional.
+
+url: https://codingcop.com
+
+about_title: About
+projects_title: Home
+
+# User settings
+user_description_appendix: |
+  This site is focused on my personal interests, with an emphasis on Information Technology content. I am currently
+  following the online full stack developer curriculum of theOdinProject.  Therefore, posts largely pertain to
+  Ruby, Ruby on Rails, HTML, CSS, JavaScript, and my Operating System of Choice - Ubuntu.
+
+  In order to get my blog up and running as quickly as possible, I built on the work of Louis Rassaby. The blog is 
+  an open source Jekyll project, and hosted for free by GitHub Pages.
+
+  [github]: https://github.com/cleve703/cleve703.github.io
+  [gh-pages]: https://pages.github.com/
+  [jekyll]: https://jekyllrb.com
+
+
+email: cleve703@gmail.com
+linkedin: jay-c-8000196
+github: cleve703
+
+relevant_tags: ['linux', 'rails', 'ruby', 'cybersecurity']
+
+# resume_url: 
+# music_resume_url:
+
+author: Jay Conner
+author_title: Coding Student
+author_photo: profile-photo.jpg
+user_description_short: |
+  I'm a career law enforcement officer in Northern Virginia, pursuing studies in the Information Technology field 
+  to enhance my professional growth.
+
+  I have experience investigating white collar crimes, as well as supervising a team of detectives investigating violent
+  crimes. I currently supervise some programs that facilitate smooth and successful transitions for incarcerated offenders 
+  preparing to [reenter][reentrynetwork] society. 
+  
+
+  [reentrynetwork]: https://thenationalreentrynetwork.org/
+
+
+commentbox:
+ id: 5766297581256704-proj
+
+## Tracker
+google_analytics_id: UA-154209464-1
+
+keywords: 'developer,coding,cop,ruby,rails,security,cybersecurity,jay conner,detective,linux'
+
+## URLs
+permalink: ':title/'
+
+baseurl: ''
+projects_url: '/'
+about_url: '/about'
+
+
+plugins:
+  - jekyll-feed
+
+
+include: [_pages]
+exclude: ['package.json', 'src' , 'node_modules', 'Gemfile', 'LICENSE', 'gulpfile.js', 'README.md']
