@@ -12,5 +12,7 @@ I used Mozilla Firefox's Web Developer Tools primarily because I like how easily
 Please take a moment to view my version of the page and compare it to the original. Links are shown below:
 
 [View CodingCop's Clone](http://htmlpreview.github.io/?https://github.com/cleve703/nytimes/blob/master/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
+
 [View Original Article](http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+
 [View Code at CodingCop's GitHub Repository](https://github.com/cleve703/nytimes)
