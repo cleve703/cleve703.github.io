@@ -9,4 +9,9 @@ My latest assignment was to create an approximate clone of the Newsweek homepage
 
 Some challenges encountered when building this project invovled keeping track of the numerous div elements required to build a large project. I quickly discovered just how important it is to ensure my elements are properly indented to show hierarchy. Another issue I encountered was that sometimes I encountered a situation where it seemed styling through Bootstrap would work, but due to the specifics of my application I had to transition to styling through CSS. That's one of the nice things about this kind of framework - you can use it to make your work easier, but you can always fall back on CSS when necessary.
 
+Here are some links to check out my project:
+* [My Clone of Newsweek](https://htmlpreview.github.io/?https://github.com/cleve703/newsweek/blob/main/index.html)
+* [My HTML/CSS Code at GitHub](https://github.com/cleve703/newsweek/blob/main/index.html)
+* [Newsweek Homepage](https://www.newsweek.com)
+
 I'm looking forward to building more projects with Bootstrap 4 and other web development frameworks. What is your favorite framework? Let me know in the comments.
