@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TheNextWeb Clone Project and the Pitfalls of CSS Background Images
+title: Newsweek Clone and Bootstrap 4
 date: 2020-10-26 09:09:13 -0500
 tags: [html-css]
 image: newsweek-clone-snapshot.png
