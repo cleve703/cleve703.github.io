@@ -2,7 +2,7 @@
 layout: post
 title: Ruby, Jekyll, and Security+
 date: 2019-12-07 10:55:11 -0500
-tags: [linux, ruby, cybersecurity]
+tags: [linux, ruby]
 image: red-black-tree.png
 ---
 It's been too long since I last posted, but I wanted to update everyone on my progress.  I have completed Web Development 101 at theOdinProject.org, and I'm 65% of the way through their Ruby course.  At this point, I think The Odin Project is an excellent resource for people like me who are committed to learning to code.
