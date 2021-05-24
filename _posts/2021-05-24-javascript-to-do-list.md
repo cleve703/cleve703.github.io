@@ -11,22 +11,21 @@ At first, localStorage was a fairly foreign concept to me, and I was unsure of a
 
 With an understanding of the general concept of localStorage, let's discuss the nuts and bolts of implementing it in a project such as this one. Like many things in JavaScript, use of localStorage is not as straightforward as one might like - it requires that you convert your object data to a more simple format. I utilized a method of converting the data to JSON for storage, and parsing it back into a JavaScript array of hashes to be processed by the application. Here's an excerpt of my code that shows how I turned JavaScript objects into JSON:
 
-```
+{% highlight javascript %}
   function saveToLocalStorage() {
     localStorage.setItem('allProjects', JSON.stringify(allProjects));
     localStorage.setItem('allTasks', JSON.stringify(allTasks));
     localStorage.setItem('projectCounter', JSON.stringify(projectCounter));
     localStorage.setItem('taskCounter', JSON.stringify(taskCounter));
-  }```
+  }
+{% endhighlight %}
 
 And this is how I converted JSON back into JavaScript objects:
 
-```
+{% highlight javascript %}
   function initProjects() {
     var localAllProjects = localStorage.getItem('allProjects');
-    console.log(localAllProjects);
     var localAllTasks = localStorage.getItem('allTasks');
-    console.log(localAllTasks);
     var localProjectCounter = localStorage.getItem('projectCounter');
     var localTaskCounter = localStorage.getItem('taskCounter');
     
@@ -39,8 +38,7 @@ And this is how I converted JSON back into JavaScript objects:
       createProject('Welcome');
     }
 }
-```
-
+{% endhighlight %}
 
 My To-do list was a lot of hard work, but it was a rewarding learning experience. I really enjoyed using JavaScript to modify objects based on user input and ultimately use CSS to reflect the user changes in a visual manner. For example, I used JavaScript to detect when the user clicks on the checkbox, and modified the "complete" property of the task. Then, I caused much of the page to regenerate and detect the completion status of the checkbox to determine whether to place a check in the checkbox. Additionally, the JavaScript modified some of the HTML elements' classes so that CSS in turn could apply a strikethrough effect on the task title and description.
 
