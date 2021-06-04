@@ -12,7 +12,7 @@ As I embark on developing greater competency with JavaScript, it is obvious how 
 During my experience building this app, I learned about prototype object in JavaScript, which allows the developer to write a function one time, but access it through many objects associated with that prototype. I also enhanced my awareness of JavaScript syntax, particularly the importance of using double-parenthesis after function names.
 
 Here are some links to check out my project:
-* [My Clone of Newsweek](https://htmlpreview.github.io/?https://github.com/cleve703/LibraryRecords/blob/main/index.html)
+* [My Library Records Project](https://codingcop.com/LibraryRecords/)
 * [My HTML/CSS Code at GitHub](https://github.com/cleve703/LibraryRecords)
 
 I'm looking forward to building more projects with JavaScript. What has been your most helpful experience learning JavaScript? Let me know in the comments.
